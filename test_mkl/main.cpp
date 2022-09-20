@@ -37,5 +37,10 @@ int main()
 									   static_cast<lapack_int>(3));
 
 	cout << "Success" << endl;
+
+    std::cout << s[0] << std::endl;
+    std::cout << s[1] << std::endl;
+    std::cout << s[2] << std::endl;
+
 	return 0;
 }
